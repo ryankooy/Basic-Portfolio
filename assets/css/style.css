@@ -1,9 +1,8 @@
 body {
+    display: block;
     font-size: 24px;
     line-height: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgrey;
-    align-content: center;
 }
 
 header {
@@ -16,9 +15,8 @@ header {
     width: 100%;
     height: 110px;
     background-color: #ffffff;
-    margin-bottom: 20px;
-    overflow: 0;
-    clear: left;
+    margin-bottom: 15px
+    z-index: 4;
 }
 
 h1 {
@@ -30,7 +28,7 @@ h1 {
     background-color: #4aaaa5;
     text-align: center;
     padding: 30px;
-    height: 100%;
+    margin: 0 auto;
     width: 20%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -47,6 +45,7 @@ h1 {
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
+    border-spacing: 50px;
 }
 
 #about {
@@ -65,12 +64,17 @@ h1 {
 }
 
 .section2 {
-    clear: left;
-    margin-top: 150px;
+    display: block;
+    position: relative;
+    padding: 20px;
     width: 960px;
-    box-align: center;
-    box-sizing: border-box;
+    align-items: center;
     background-color: #ffffff;
+    z-index: 2;
+}
+
+.text {
+    margin: 20px;
 }
 
 footer {
@@ -82,4 +86,11 @@ footer {
     bottom: 0px;
     margin-top: 20px;
     background-color: #666666;
+    z-index: 3;
+}
+
+.bg {
+    width: 100%;
+    z-index: 1;
+    background-color: grey;
 }
