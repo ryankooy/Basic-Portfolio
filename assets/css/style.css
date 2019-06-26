@@ -1,0 +1,85 @@
+body {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    align-content: center;
+}
+
+header {
+    border: 0 0 10px 0;
+    border-color: #ccc;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: 0;
+    clear: left;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+    width: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttons {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    right: 20%;
+    font-size: 14px;
+    padding: 20px;
+    float: right;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about {
+    float: left;
+    width: 33.3%;
+}
+
+#portfolio {
+    float: left;
+    width: 33.3%;
+}
+
+#contact {
+    float: left;
+    width: 33.3%;
+}
+
+.section2 {
+    clear: left;
+    margin-top: 150px;
+    width: 960px;
+    box-align: center;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+footer {
+    font-size: 12px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    bottom: 0px;
+    margin-top: 20px;
+    background-color: #666666;
+}
