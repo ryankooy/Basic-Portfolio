@@ -1,36 +1,52 @@
 body {
+    box-sizing: border-box;
     display: block;
-    font-size: 24px;
-    line-height: 32px;
+    width: 100%;
+    background-color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    border: 0 0 10px 0;
-    border-color: #ccc;
-    align-content: center;
-    position: fixed;
+#headwide {
+    width: 100%;
+    background-color:#ffffff;
+    border: solid black;
+    border-width: 0px 0px 5px 0px;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 110px;
-    background-color: #ffffff;
-    margin-bottom: 15px
+    position: fixed;
+    height: 90px;
     z-index: 4;
+}
+
+header {
+    border: solid black;
+    border-width: 0px 0px 5px 0px;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    margin: 0 0 20px -472px;
+    width: 960px;
+    height: 90px;
+    background-color: #ffffff;
+    z-index: 5;
 }
 
 h1 {
     position: absolute;
     top: 0;
-    left: 20%;
+    left: 0;
+    bottom: 0;
     font-size: 32px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     padding: 30px;
     margin: 0 auto;
-    width: 20%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center {
+    vertical-align: middle;
 }
 
 .buttons {
@@ -38,9 +54,9 @@ h1 {
     top: 0;
     bottom: 0;
     width: 250px;
-    right: 20%;
+    right: 0;
     font-size: 14px;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     float: right;
     background-color: #ffffff;
     margin: 0 auto;
@@ -64,17 +80,30 @@ h1 {
 }
 
 .section2 {
-    display: block;
-    position: relative;
-    padding: 20px;
     width: 960px;
-    align-items: center;
     background-color: #ffffff;
-    z-index: 2;
+    z-index: 3;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text {
-    margin: 20px;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #ffffff;
+    border: solid #666666;
+    border-width: 0px 0px 3px 0px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0;
+    clear: right;
 }
 
 footer {
@@ -86,11 +115,5 @@ footer {
     bottom: 0px;
     margin-top: 20px;
     background-color: #666666;
-    z-index: 3;
-}
-
-.bg {
-    width: 100%;
-    z-index: 1;
-    background-color: grey;
+    z-index: 2;
 }
