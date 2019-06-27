@@ -1,15 +1,17 @@
 body {
-    box-sizing: border-box;
+    color: #777777;
+    box-sizing: content-box;
     display: block;
     width: 100%;
-    background-color: darkgrey;
+    background-color: #4aaaa5;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png");
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #headwide {
     width: 100%;
     background-color:#ffffff;
-    border: solid black;
+    border: solid #cccccc;
     border-width: 0px 0px 5px 0px;
     top: 0;
     left: 0;
@@ -19,12 +21,13 @@ body {
 }
 
 header {
-    border: solid black;
+    border: solid #cccccc;
     border-width: 0px 0px 5px 0px;
     top: 0;
     position: fixed;
     left: 50%;
-    margin: 0 0 20px -472px;
+    right: 50%;
+    margin: 0px 0px 20px -472px;
     width: 960px;
     height: 90px;
     background-color: #ffffff;
@@ -40,13 +43,9 @@ h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 30px;
+    padding: 25px 30px 30px 30px;
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.center {
-    vertical-align: middle;
 }
 
 .buttons {
@@ -56,12 +55,13 @@ h1 {
     width: 250px;
     right: 0;
     font-size: 14px;
-    padding: 20px 0px 20px 20px;
+    padding: 35px 0px 20px 20px;
     float: right;
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
     border-spacing: 50px;
+    
 }
 
 #about {
@@ -86,19 +86,23 @@ h1 {
     margin-top: 110px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    word-wrap: break-word;
 }
 
 .text {
     padding: 0px 20px 20px 20px;
-    margin: 0;
-    font-size: 20px;
-    line-height: 35px;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 33px;
 }
 
 h2 {
-    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 27px;
     background-color: #ffffff;
-    border: solid #666666;
+    border: solid #dddddd;
     border-width: 0px 0px 3px 0px;
     height: 30px;
     margin-bottom: 20px;
@@ -106,9 +110,10 @@ h2 {
 }
 
 img {
+    float: left;
     max-width: 200px;
     max-height: 200px;
-    margin: 0;
+    margin: 0 20px 15px 0;
 }
 
 footer {
@@ -121,4 +126,20 @@ footer {
     margin-top: 20px;
     background-color: #666666;
     z-index: 2;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+}
+
+#submit {
+    width: 150px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
