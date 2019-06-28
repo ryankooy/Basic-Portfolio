@@ -27,7 +27,7 @@ header {
     position: fixed;
     left: 50%;
     right: 50%;
-    margin: 0px 0px 20px -472px;
+    margin: 0px 0px 0px -472px;
     width: 960px;
     height: 90px;
     background-color: #ffffff;
@@ -49,20 +49,18 @@ h1 {
 }
 
 .buttons {
-    display: inline;
     box-sizing: content-box;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 275px;
     right: 0;
+    float: right;
     font-size: 14px;
     padding: 38px 0px 0px 0px;
-    float: right;
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
-    border-spacing: 25px;
 }
 
 #about {
@@ -71,18 +69,19 @@ h1 {
 }
 
 #portfolio {
-    margin-left: -5px;
+    margin-left: -4px;
     float: left;
     width: 33.3%;
 }
 
 #contact {
-    margin-left: 5px;
+    margin-left: 4px;
     float: left;
     width: 33.3%;
 }
 
 .section2 {
+    box-sizing: border-box;
     width: 960px;
     background-color: #ffffff;
     z-index: 3;
@@ -117,6 +116,8 @@ img {
     max-width: 200px;
     max-height: 200px;
     margin: 0 20px 15px 0;
+    border: 3px solid #ffffff;
+    box-shadow: 7px 7px 5px #777777;
 }
 
 footer {
@@ -134,7 +135,7 @@ footer {
 }
 
 input, textarea, select {
-    width: 85%;
+    width: 100%;
 }
 
 textarea {
