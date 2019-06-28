@@ -143,3 +143,17 @@ textarea {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.box:default {
+    background-color: #ffffff;
+}
+
+.box:hover, .box:focus {
+    background-color: #4aaaa5;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.box:active {
+    background-color: maroon;
+}
