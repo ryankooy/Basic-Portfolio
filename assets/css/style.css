@@ -92,7 +92,7 @@ h1 {
     word-wrap: break-word;
 }
 
-.text {
+.text, .port {
     padding: 0px 20px 20px 20px;
     margin-top: 0;
     font-size: 15px;
@@ -100,9 +100,8 @@ h1 {
 }
 
 .port {
-    padding: 0px 20px 20px 20px;
-    margin-top: 0;
-    height: 500px;
+    height: 550px;
+    /* overflow: auto; */
 }
 
 h2 {
@@ -163,15 +162,17 @@ textarea {
 }
 
 .container, .image {
-    width: 100%;
+    float: left;
 }
 
 .container {
-    float: left;
     position: relative;
 }
 
 .title {
+    width: 91%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     height: 40px;
     top: 55%;
     color: #ffffff;
@@ -179,6 +180,7 @@ textarea {
     text-align: center;
     padding-top: 20px;
     position: absolute;
+    z-index: 4;
 }
 
 .box:link, .box:visited {
