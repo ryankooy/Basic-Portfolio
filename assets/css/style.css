@@ -55,7 +55,6 @@ h1 {
     bottom: 0;
     width: 275px;
     right: 0;
-    float: right;
     font-size: 14px;
     padding: 38px 0px 0px 0px;
     background-color: #ffffff;
@@ -82,21 +81,28 @@ h1 {
 
 .section2 {
     box-sizing: border-box;
+    border: 2px solid #dddddd;
     width: 960px;
     background-color: #ffffff;
     z-index: 3;
     margin-top: 110px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 7%;
     word-wrap: break-word;
 }
 
 .text {
     padding: 0px 20px 20px 20px;
     margin-top: 0;
-    font-size: 14px;
-    line-height: 33px;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.port {
+    padding: 0px 20px 20px 20px;
+    margin-top: 0;
+    height: 500px;
 }
 
 h2 {
@@ -113,8 +119,8 @@ h2 {
 
 img {
     float: left;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 180px;
+    max-height: 180px;
     margin: 0 20px 15px 0;
     border: 3px solid #ffffff;
     box-shadow: 7px 7px 5px #777777;
@@ -150,6 +156,29 @@ textarea {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container, .image {
+    width: 100%;
+}
+
+.container {
+    float: left;
+    position: relative;
+}
+
+.title {
+    height: 40px;
+    top: 55%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
 }
 
 .box:link, .box:visited {
