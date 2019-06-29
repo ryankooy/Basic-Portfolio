@@ -1,14 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #777777;
-    box-sizing: content-box;
-    display: block;
-    width: 100%;
     background-color: #4aaaa5;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png");
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#headwide {
+/* #headwide {
     width: 100%;
     background-color:#ffffff;
     border: solid #cccccc;
@@ -18,48 +19,44 @@ body {
     position: fixed;
     height: 90px;
     z-index: 4;
-}
+} */
 
 header {
+    width: 100%;
     border: solid #cccccc;
     border-width: 0px 0px 5px 0px;
     top: 0;
+    left: 0;
     position: fixed;
-    left: 50%;
-    right: 50%;
-    margin: 0px 0px 0px -472px;
-    width: 960px;
-    height: 90px;
+    height: 96px;
     background-color: #ffffff;
     z-index: 5;
 }
 
+.navbar {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
     font-size: 32px;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
-    padding: 25px 30px 30px 30px;
+    padding: 25px 35px 30px 35px;
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
 }
 
 .buttons {
-    box-sizing: content-box;
-    position: absolute;
-    top: 0;
-    bottom: 0;
     width: 275px;
-    right: 0;
     font-size: 14px;
     padding: 38px 0px 0px 0px;
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
+    float: right;
 }
 
 #about {
@@ -101,7 +98,6 @@ h1 {
 
 .port {
     height: 550px;
-    /* overflow: auto; */
 }
 
 h2 {
@@ -113,7 +109,7 @@ h2 {
     border-width: 0px 0px 3px 0px;
     height: 30px;
     margin-bottom: 20px;
-    padding: 20px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 img {
@@ -136,7 +132,7 @@ footer {
     margin-top: 20px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    z-index: 2;
+    z-index: 3;
 }
 
 input, textarea, select {
@@ -173,14 +169,14 @@ textarea {
     width: 91%;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 40px;
+    height: 60px;
     top: 55%;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 18px;
     position: absolute;
-    z-index: 4;
+    z-index: 2;
 }
 
 .box:link, .box:visited {
@@ -204,4 +200,10 @@ textarea {
     font-size: 14px;
     color: #dddddd;
     text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
