@@ -9,18 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* #headwide {
-    width: 100%;
-    background-color:#ffffff;
-    border: solid #cccccc;
-    border-width: 0px 0px 5px 0px;
-    top: 0;
-    left: 0;
-    position: fixed;
-    height: 90px;
-    z-index: 4;
-} */
-
 header {
     width: 100%;
     border: solid #cccccc;
